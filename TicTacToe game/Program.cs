@@ -6,11 +6,11 @@ namespace TicTacToe_game
     {
         static void Main(string[] args)
         {
-            string[,] board =
+            char[,] board =
             {
-                {"1","2","3"},
-                {"4","5","6"},
-                {"7","8","9"}
+                {'1','2','3'},
+                {'4','5','6'},
+                {'7','8','9'}
             };
             int playerCount = 1;
 
@@ -30,12 +30,12 @@ namespace TicTacToe_game
             //printBoard(board);
             Console.ReadKey();
         }
-        public static void playerTurn(ref int playerCount, ref string[,] board)
+        public static void playerTurn(ref int playerCount, ref char[,] board)
         {
-            string input = "";
+            char input;
             bool isValidMove = false;
             Console.Write($"Player {playerCount}: Choose your field: ");
-            input = Console.ReadLine();
+            isValidMove = char.TryParse(Console.ReadLine(), out input);
             for (int i = 0; i < 3; i++)
                 for (int j = 0; j < 3; j++)
                     if (board[i, j].Equals(input))
@@ -43,12 +43,12 @@ namespace TicTacToe_game
                         isValidMove = true;
                         if (playerCount == 1)
                         {
-                            board[i, j] = "X";
+                            board[i, j] = 'X';
                             playerCount = 2;
                         }
                         else
                         {
-                            board[i, j] = "O";
+                            board[i, j] = 'O';
                             playerCount = 1;
                         }
                         break;
@@ -60,7 +60,7 @@ namespace TicTacToe_game
             }
         }
 
-        public static void printBoard(string[,] board)
+        public static void printBoard(char[,] board)
         {
             for (int i = 0; i < 3; i++)
             {
@@ -74,7 +74,7 @@ namespace TicTacToe_game
         }
 
 
-        public static bool Checker(string[,] board)
+        public static bool Checker(char[,] board)
         {
             bool winner = false;
 
