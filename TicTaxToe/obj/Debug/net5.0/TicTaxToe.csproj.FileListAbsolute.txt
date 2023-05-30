@@ -1,0 +1,16 @@
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.exe
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.deps.json
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.runtimeconfig.json
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.runtimeconfig.dev.json
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.dll
+D:\.NET\C#\C# Masterclass\TicTaxToe\bin\Debug\net5.0\TicTaxToe.pdb
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.csproj.AssemblyReference.cache
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.AssemblyInfoInputs.cache
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.AssemblyInfo.cs
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.csproj.CoreCompileInputs.cache
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.dll
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\refint\TicTaxToe.dll
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.pdb
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\TicTaxToe.genruntimeconfig.cache
+D:\.NET\C#\C# Masterclass\TicTaxToe\obj\Debug\net5.0\ref\TicTaxToe.dll
